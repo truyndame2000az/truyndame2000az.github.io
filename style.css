@@ -1,0 +1,63 @@
+body{
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    font-size: 13px; 
+    width: 1000px;
+    margin: 10px auto;
+}
+
+#menu_top{
+    background: #141414;
+    height: 40px;
+}
+
+#banner{
+    height: auto;
+    width: 1000px;
+}
+
+#main #left{
+    width: 800px;
+    background: #cccccc;
+    float: left;
+    min-height: 400px;
+}
+
+#main #right{
+    width: 200px;
+    background: blue;
+    float: left;
+    min-height: 400px;
+}
+
+#footer{
+    background:tomato ;
+    width: 1000px;
+    text-align: center;
+    height: 60px;
+    color: yellowgreen;
+    clear: both;
+}
+
+#menu_top ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu_top ul li{
+    list-style: none;
+    float: left;
+}
+
+#menu_top ul li a{
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    padding: 0px 20px 0px 20px;
+    border-right: 1px solid #cccccc;
+}
+
+#banner img{
+     width: 1000px;
+}
